@@ -12,4 +12,12 @@ public class SinglyLinkListReverse {
             System.out.print(curNode.data+" ");
         }
     }
+
+
+    public static void print(Node currentNode){
+        if (currentNode!=null){
+            print(currentNode.next);
+            System.out.println(currentNode.data+",");
+        }
+    }
 }
